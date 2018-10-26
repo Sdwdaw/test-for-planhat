@@ -1,0 +1,93 @@
+html {
+    font-size: 62.5%;
+ }
+
+ body {
+     padding: 0.5rem 2rem;
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+ }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-width: 1120px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1rem 0;
+    border:solid 0.15rem #dddddd;
+    background-color: #fafafa;
+}
+
+.row {
+    margin:1rem;
+    /* background-color: gray; */
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.paying-customers {
+    display: flex;
+    flex-direction: column;
+}
+
+.paying-customers-value, .potfolio-value {
+    font-weight: 800;
+    font-size: 3.2rem;
+}
+
+.health-score {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.health-score-value {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.3rem 0.8rem;
+    margin: 0.3rem;
+    background-color: #e41300;
+    border-radius: 0.3rem;
+    color:white;
+    font-weight: 800;
+    font-size: 2.2rem;
+}
+
+.health-score-text {
+    display: flex;
+    flex-direction: column;
+    color: #999999;
+    text-transform: uppercase; 
+    
+}
+
+.text-big {
+    font-weight: 800;
+    font-size: 1.6rem;
+}
+
+.text-average {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.content {
+    padding: 1rem 0;
+    border:solid #dddddd;
+    border-width: 0 0.15rem 0.15rem 0.15rem;
+    background-color: #fafafa;
+    text-align: center;
+}
+
+canvas {
+    border:solid 1px #999999;
+}
